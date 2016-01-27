@@ -1,0 +1,56 @@
+/* FONTS variables */
+/* BODY variables */
+/* content variables */
+/* forms */
+/* modals */
+/* Footer variables */
+.slider_004 {
+  margin-bottom: 30px; }
+  .slider_004 .item img {
+    height: 500px; }
+  .slider_004 .carousel-caption {
+    color: #fff; }
+    .slider_004 .carousel-caption p {
+      font-weight: 400;
+      font-size: 15px;
+      text-transform: uppercase;
+      margin: 33px 0;
+      text-align: center; }
+      .slider_004 .carousel-caption p span {
+        font-weight: 700; }
+    .slider_004 .carousel-caption h1 {
+      padding: 10px 0;
+      margin: 0 auto;
+      font-weight: 600;
+      font-size: 36px;
+      text-transform: uppercase;
+      max-width: 250px; }
+    .slider_004 .carousel-caption .order-btn {
+      display: inline-block;
+      background-color: #131416;
+      padding: 20px 30px;
+      text-align: center;
+      line-height: 1em;
+      font-size: 13px;
+      font-weight: bold;
+      text-transform: uppercase;
+      width: auto;
+      text-decoration: none;
+      color: #fff; }
+      .slider_004 .carousel-caption .order-btn:after .slider_004 .carousel-caption .order-btn:focus, .slider_004 .carousel-caption .order-btn:active {
+        opacity: .8; }
+  .slider_004 .carousel-control.left span {
+    left: 15px; }
+  .slider_004 .carousel-control.right span {
+    right: 15px; }
+  .slider_004 .carousel-control span {
+    width: 50px;
+    height: 80px;
+    background-color: #d7d8cf;
+    color: #131312;
+    opacity: 1;
+    font-size: 30px;
+    padding: 26px 20px;
+    top: 50%;
+    margin-top: -40px;
+    position: absolute; }

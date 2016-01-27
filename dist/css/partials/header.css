@@ -1,0 +1,311 @@
+/*Header*/
+/* FONTS variables */
+/* BODY variables */
+/* content variables */
+/* forms */
+/* modals */
+/* Footer variables */
+.header_004 .contacts {
+  display: table;
+  width: 100%; }
+  .header_004 .contacts > div {
+    display: table-cell;
+    width: 33.3%;
+    vertical-align: middle;
+    padding: 30px 0 25px; }
+    .header_004 .contacts > div:nth-child(2) {
+      width: 33.4%;
+      text-align: center; }
+  .header_004 .contacts .search-block .input-group {
+    max-width: 240px; }
+  .header_004 .contacts .search-block .form-control {
+    border-radius: 0;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #7a7a7a;
+    background-color: transparent;
+    border-right: none;
+    height: 36px; }
+  .header_004 .contacts .search-block .input-group-addon {
+    border-radius: 0;
+    border-left: none;
+    padding: 0 12px; }
+    .header_004 .contacts .search-block .input-group-addon .btn {
+      background-color: inherit;
+      border: none;
+      border-radius: 0;
+      outline: none;
+      text-align: right;
+      padding-right: 0; }
+      .header_004 .contacts .search-block .input-group-addon .btn:hover, .header_004 .contacts .search-block .input-group-addon .btn:active, .header_004 .contacts .search-block .input-group-addon .btn:focus {
+        box-shadow: none; }
+        .header_004 .contacts .search-block .input-group-addon .btn:hover .fa, .header_004 .contacts .search-block .input-group-addon .btn:active .fa, .header_004 .contacts .search-block .input-group-addon .btn:focus .fa {
+          opacity: .9; }
+      .header_004 .contacts .search-block .input-group-addon .btn .fa {
+        color: #458bc7; }
+  .header_004 .contacts .phone {
+    color: #7a7a7a;
+    text-align: right;
+    font-weight: bold;
+    font-size: 23px;
+    cursor: default; }
+    .header_004 .contacts .phone .fa {
+      color: #458bc7; }
+
+.header_004 .header-menu {
+  margin-bottom: 20px;
+  width: 100%; }
+  .header_004 .header-menu li {
+    padding-left: 21px; }
+    .header_004 .header-menu li.active .default-button {
+      background: #ebebeb;
+      text-decoration: none;
+      -webkit-transition: .2s all;
+      transition: .2s all;
+      color: #458bc7;
+      outline: none; }
+      .header_004 .header-menu li.active .default-button.cow:before {
+        background: url("../../../images/cow2.png") no-repeat; }
+      .header_004 .header-menu li.active .default-button.horse:before {
+        background: url("../../../images/horse2.png") no-repeat; }
+      .header_004 .header-menu li.active .default-button.pig:before {
+        background: url("../../../images/pig2.png") no-repeat; }
+      .header_004 .header-menu li.active .default-button.dogcat:before {
+        background: url("../../../images/dogcat2.png") no-repeat; }
+    .header_004 .header-menu li:first-child {
+      padding-left: 0; }
+    .header_004 .header-menu li .default-button {
+      height: 70px;
+      overflow: hidden;
+      width: 269px;
+      font-weight: bold;
+      padding: 14px;
+      padding-left: 85px;
+      position: relative;
+      text-align: left;
+      display: table; }
+      .header_004 .header-menu li .default-button span {
+        display: table-cell;
+        vertical-align: middle; }
+      .header_004 .header-menu li .default-button.cow:before {
+        position: absolute;
+        content: '';
+        left: 12px;
+        top: 15px;
+        background: url("../../../images/cow.png") no-repeat;
+        width: 53px;
+        height: 37px;
+        -webkit-transition: .2s background;
+        transition: .2s background; }
+      .header_004 .header-menu li .default-button.cow:hover:before, .header_004 .header-menu li .default-button.cow:focus:before, .header_004 .header-menu li .default-button.cow:active:before {
+        background: url("../../../images/cow2.png") no-repeat; }
+      .header_004 .header-menu li .default-button.horse:before {
+        position: absolute;
+        content: '';
+        left: 12px;
+        top: 9px;
+        background: url("../../../images/horse.png") no-repeat;
+        width: 52px;
+        height: 48px;
+        -webkit-transition: .2s background;
+        transition: .2s background; }
+      .header_004 .header-menu li .default-button.horse:hover:before, .header_004 .header-menu li .default-button.horse:focus:before, .header_004 .header-menu li .default-button.horse:active:before {
+        background: url("../../../images/horse2.png") no-repeat; }
+      .header_004 .header-menu li .default-button.pig:before {
+        position: absolute;
+        content: '';
+        left: 12px;
+        top: 16px;
+        background: url("../../../images/pig.png") no-repeat;
+        width: 67px;
+        height: 35px;
+        -webkit-transition: .2s background;
+        transition: .2s background; }
+      .header_004 .header-menu li .default-button.pig:hover:before, .header_004 .header-menu li .default-button.pig:focus:before, .header_004 .header-menu li .default-button.pig:active:before {
+        background: url("../../../images/pig2.png") no-repeat; }
+      .header_004 .header-menu li .default-button.dogcat {
+        padding-left: 75px;
+        padding-right: 5px; }
+        .header_004 .header-menu li .default-button.dogcat:before {
+          position: absolute;
+          content: '';
+          left: 12px;
+          top: 10px;
+          background: url("../../../images/dogcat.png") no-repeat;
+          width: 49px;
+          height: 46px;
+          -webkit-transition: .2s background;
+          transition: .2s background; }
+        .header_004 .header-menu li .default-button.dogcat:hover:before, .header_004 .header-menu li .default-button.dogcat:focus:before, .header_004 .header-menu li .default-button.dogcat:active:before {
+          background: url("../../../images/dogcat2.png") no-repeat; }
+    .header_004 .header-menu li .dropdown-menu {
+      box-shadow: none;
+      padding: 0;
+      width: auto;
+      border-radius: 0; }
+      .header_004 .header-menu li .dropdown-menu li {
+        padding: 0; }
+        .header_004 .header-menu li .dropdown-menu li a:hover, .header_004 .header-menu li .dropdown-menu li a:focus, .header_004 .header-menu li .dropdown-menu li a:active {
+          background-color: #458bc7;
+          color: #fff; }
+
+/*header {
+  .navbar-default {
+    background-color: $white;
+    border: none;
+    border-radius: 0;
+    .navbar-header {
+      .logo {
+        display: inline-block;
+        vertical-align: middle;
+        padding: 14px 15px;
+        img {
+          width: 40px;
+          height: 32px;
+        }
+      }
+    }
+    .navbar-nav > .open > a {
+      background: transparent;
+    }
+    .navbar-nav {
+      li {
+        padding: 0 25px;
+        &:first-child {
+          padding: 0 25px 0 15px;
+        }
+        a {
+          font-size: 16px;
+          font-weight: 700;
+          line-height: 22px;
+          background-color: transparent;
+          padding: 19px 0;
+          &:hover {
+            color: $violet;
+          }
+          &:focus, &:active {
+            background-color: transparent;
+            padding-bottom: 16px;
+            border-bottom: 3px solid $violet;
+            color: $violet;
+          }
+        }
+      }
+      li.dropdown {
+        &.open {
+          background: transparent;
+          a {
+            color: $violet;
+          }
+        }
+        &:hover, &:focus, &:active {
+          background: transparent;
+        }
+        .dropdown-menu {
+          right: 0;
+          left: auto;
+          padding: 0;
+          border-radius: 2px;
+          li {
+            position: relative;
+            padding: 0;
+            margin: 0;
+            border-bottom: 1px solid rgba(200, 200, 210, 0.4);
+            &.active {
+              a {
+                padding-bottom: 15px;
+                color: $body-font-color;
+                border-bottom: none;
+                &:active, &:focus {
+                  padding-bottom: 15px;
+                  border-bottom: none;
+                  color: $violet;
+                }
+              }
+            }
+            a {
+              font-size: 16px;
+              font-weight: 400;
+              line-height: 22px;
+              padding: 15px;
+              color: $body-font-color;
+              &:hover, &:focus, &:active {
+                background-color: transparent;
+                border-bottom: none;
+              }
+            }
+          }
+        }
+        .dropdown-toggle {
+          &:hover, &:focus, &:active {
+            background: transparent;
+            color: $violet;
+          }
+        }
+      }
+      li.active {
+        a {
+          background-color: transparent;
+          padding-bottom: 16px;
+          color: $violet;
+          border-bottom: 3px solid $violet;
+          &:active, &:focus {
+            background-color: transparent;
+            padding-bottom: 16px;
+            border-bottom: 3px solid $violet;
+            color: $violet;
+          }
+          &:hover {
+            background-color: transparent;
+          }
+        }
+      }
+    }
+    .navbar-right {
+      li {
+        padding: 0;
+        &:first-child {
+          padding: 0;
+        }
+        a {
+          padding: 19px 15px;
+        }
+      }
+      li.dropdown {
+        .dropdown-menu {
+          li {
+            padding: 0 15px;
+          }
+        }
+      }
+      li:last-child {
+        position: relative;
+        a {
+          &:before {
+            position: absolute;
+            content: '';
+            left: 0;
+            top: 15px;
+            bottom: 15px;
+            width: 1px;
+            background-color: $grey-light-dark;
+          }
+          &:focus, &:active {
+            padding-bottom: 19px;
+            border-bottom: none;
+            color: $violet;
+          }
+        }
+        .badge {
+          color: $grey-light-thin;
+          i {
+            line-height: 18px;
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+}*/

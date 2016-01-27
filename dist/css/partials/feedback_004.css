@@ -1,0 +1,45 @@
+/* FONTS variables */
+/* BODY variables */
+/* content variables */
+/* forms */
+/* modals */
+/* Footer variables */
+.feedback_004 {
+  background-image: url("../../../images/slaider3.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 57px; }
+  .feedback_004 form {
+    padding: 27px 120px 10px; }
+    .feedback_004 form .control-label {
+      white-space: nowrap;
+      font-weight: bold;
+      font-size: 14px;
+      color: #fff; }
+    .feedback_004 form .form-control {
+      border-radius: 0;
+      font-weight: bold;
+      font-size: 14px; }
+      .feedback_004 form .form-control::-webkit-input-placeholder {
+        color: #a1a1a1; }
+      .feedback_004 form .form-control:-ms-input-placeholder {
+        color: #a1a1a1; }
+      .feedback_004 form .form-control:-moz-placeholder {
+        color: #a1a1a1; }
+      .feedback_004 form .form-control::-moz-placeholder {
+        color: #a1a1a1; }
+    .feedback_004 form textarea {
+      min-height: 87px; }
+    .feedback_004 form .form-group {
+      margin-bottom: 17px; }
+    .feedback_004 form .small-padding {
+      padding-left: 10px;
+      padding-right: 10px; }
+    .feedback_004 form .submit-button {
+      font-size: 14px;
+      font-weight: bold;
+      padding: 15px 30px;
+      display: inline-block;
+      margin: 0;
+      height: 50px;
+      width: auto; }

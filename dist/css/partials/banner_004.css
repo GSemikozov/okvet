@@ -1,0 +1,50 @@
+/* FONTS variables */
+/* BODY variables */
+/* content variables */
+/* forms */
+/* modals */
+/* Footer variables */
+.banner_004 {
+  position: relative;
+  margin-bottom: 60px; }
+  .banner_004 img {
+    height: 410px;
+    width: 100%;
+    position: relative; }
+  .banner_004 .caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: #fff;
+    text-align: center;
+    padding: 80px 20px 20px; }
+    .banner_004 .caption p {
+      font-weight: 400;
+      font-size: 13px;
+      text-transform: uppercase;
+      margin: 26px 0;
+      text-align: center; }
+      .banner_004 .caption p span {
+        font-weight: 700; }
+    .banner_004 .caption h1 {
+      padding: 10px 0;
+      margin: 0 auto;
+      font-weight: 600;
+      font-size: 30px;
+      text-transform: uppercase; }
+    .banner_004 .caption .order-btn {
+      display: inline-block;
+      background-color: #458bc7;
+      padding: 20px 30px;
+      text-align: center;
+      line-height: 1em;
+      font-size: 13px;
+      font-weight: bold;
+      text-transform: uppercase;
+      width: auto;
+      text-decoration: none;
+      color: #fff; }
+      .banner_004 .caption .order-btn:after .banner_004 .caption .order-btn:focus, .banner_004 .caption .order-btn:active {
+        opacity: .8; }

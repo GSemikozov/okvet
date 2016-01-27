@@ -1,0 +1,47 @@
+/* FONTS variables */
+/* BODY variables */
+/* content variables */
+/* forms */
+/* modals */
+/* Footer variables */
+.brands_004 {
+  /* Slider */
+  /*.brand-slider::-moz-selection { background: transparent; color: #fff; text-shadow: none; }
+  .brand-slider::selection { background: transparent; color: #fff; text-shadow: none; }*/ }
+  .brands_004 .clear {
+    margin-top: -1px;
+    height: 1px;
+    clear: both; }
+  .brands_004 .brand-slider {
+    width: 100%;
+    margin: 0 auto 50px;
+    padding: 0 100px;
+    position: relative; }
+  .brands_004 .slide-list {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; }
+  .brands_004 .slide-wrap {
+    position: relative;
+    left: 0px;
+    top: 0;
+    width: 10000000px; }
+  .brands_004 .slide-item {
+    padding: 0 15px;
+    float: left; }
+  .brands_004 .navy {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    height: 100%;
+    width: 40px;
+    cursor: pointer; }
+    .brands_004 .navy .fa {
+      font-size: 30px;
+      margin-top: 90%; }
+  .brands_004 .prev-slide {
+    left: 30px; }
+  .brands_004 .next-slide {
+    right: 30px;
+    text-align: right; }

@@ -1,0 +1,47 @@
+/* FONTS variables */
+/* BODY variables */
+/* content variables */
+/* forms */
+/* modals */
+/* Footer variables */
+footer {
+  background: #000000;
+  color: #7a7a7a;
+  padding: 22px 0; }
+  footer p {
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 19px;
+    color: #7a7a7a;
+    margin: 0; }
+  footer .copyright {
+    margin-left: 40px; }
+    footer .copyright img {
+      display: inline-block;
+      margin-right: 8px; }
+    footer .copyright span {
+      display: inline-block;
+      font-size: 12px;
+      line-height: 14px;
+      white-space: nowrap;
+      font-weight: normal;
+      padding: 2px 10px;
+      border-radius: 8px;
+      background-color: #fff;
+      color: #000; }
+  footer .footer-menu {
+    padding: 0;
+    margin: 0;
+    list-style: none; }
+    footer .footer-menu li {
+      display: inline-block;
+      margin-right: 20px; }
+      footer .footer-menu li:last-child {
+        margin-right: 0; }
+      footer .footer-menu li a {
+        display: block;
+        text-decoration: none;
+        font-size: 12px;
+        color: #fff; }
+  footer .no-padding {
+    padding: 0 !important; }

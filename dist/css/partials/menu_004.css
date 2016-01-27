@@ -1,0 +1,58 @@
+/* FONTS variables */
+/* BODY variables */
+/* content variables */
+/* forms */
+/* modals */
+/* Footer variables */
+.content-menu {
+  border-top: 4px solid #458bc6;
+  border-bottom: 1px solid #dddddd;
+  border-right: none;
+  border-left: none;
+  border-radius: 0;
+  background-color: #fff;
+  height: 60px; }
+  .content-menu .nav li {
+    padding: 0;
+    margin-left: 16px; }
+    .content-menu .nav li a {
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 25px;
+      background-color: transparent;
+      padding: 14px 12px;
+      border: none;
+      color: #7a7a7a; }
+      .content-menu .nav li a:hover {
+        color: #458bc7; }
+      .content-menu .nav li a:focus, .content-menu .nav li a:active {
+        background-color: transparent;
+        padding-bottom: 14px;
+        border-bottom: 3px solid #458bc6;
+        color: #458bc7; }
+  .content-menu .nav li.active a {
+    background-color: transparent;
+    padding-bottom: 14px;
+    border-bottom: 3px solid #458bc6;
+    color: #458bc7; }
+    .content-menu .nav li.active a:active, .content-menu .nav li.active a:focus {
+      background-color: transparent;
+      padding-bottom: 14px;
+      border-bottom: 3px solid #458bc6; }
+    .content-menu .nav li.active a:hover {
+      background-color: transparent; }
+  .content-menu .nav.button-nav li {
+    padding-top: 10px;
+    margin-left: 0; }
+    .content-menu .nav.button-nav li .default-button {
+      padding: 6px 14px;
+      line-height: 24px; }
+      .content-menu .nav.button-nav li .default-button img {
+        height: auto;
+        width: 25px;
+        margin-right: 11px;
+        vertical-align: top; }
+      .content-menu .nav.button-nav li .default-button:hover, .content-menu .nav.button-nav li .default-button:focus, .content-menu .nav.button-nav li .default-button:active {
+        background-color: #458bc7;
+        color: #ffffff;
+        opacity: .9; }

@@ -1,0 +1,84 @@
+/* FONTS variables */
+/* BODY variables */
+/* content variables */
+/* forms */
+/* modals */
+/* Footer variables */
+.row2 {
+  margin-left: -30px;
+  margin-right: -30px; }
+
+.heading {
+  font-size: 22px;
+  font-weight: 600;
+  text-align: center;
+  padding-bottom: 20px;
+  margin: 0;
+  margin-bottom: 37px;
+  color: #000;
+  position: relative; }
+  .heading:after {
+    height: 1px;
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ddd; }
+
+.card-img {
+  position: relative; }
+  .card-img img {
+    width: 100%;
+    height: auto;
+    position: relative; }
+  .card-img .title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    padding: 10px 15px;
+    font-weight: bold;
+    font-size: 12px;
+    color: #fff;
+    cursor: default; }
+    .card-img .title.red {
+      background-color: #e95144; }
+    .card-img .title.blue {
+      background-color: #458bc7; }
+
+.card-description {
+  padding: 20px;
+  margin-bottom: 30px;
+  text-align: center; }
+  .card-description p {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    color: #000;
+    margin-bottom: 5px; }
+  .card-description .stars {
+    display: block;
+    margin: 0 auto 5px;
+    width: 90px; }
+    .card-description .stars span {
+      display: inline-block; }
+      .card-description .stars span .fa {
+        color: #e5e5e5; }
+      .card-description .stars span .fa:hover, .card-description .stars span .fa:focus, .card-description .stars span .fa:active {
+        color: #458bc7; }
+      .card-description .stars span.active .fa {
+        color: #458bc7; }
+  .card-description .price {
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 25px;
+    color: #000; }
+  .card-description .link {
+    color: #000;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 30px; }
