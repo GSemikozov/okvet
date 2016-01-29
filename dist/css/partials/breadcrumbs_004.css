@@ -1,0 +1,13 @@
+/* FONTS variables */
+/* BODY variables */
+/* content variables */
+/* forms */
+/* modals */
+/* Footer variables */
+.breadcrumb {
+  background-color: #fff;
+  padding: 0; }
+  .breadcrumb li a {
+    font-size: 13px; }
+  .breadcrumb li.active {
+    font-size: 13px; }

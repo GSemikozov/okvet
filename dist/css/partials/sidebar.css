@@ -1,0 +1,71 @@
+/* FONTS variables */
+/* BODY variables */
+/* content variables */
+/* forms */
+/* modals */
+/* Footer variables */
+.content-with-sidebar aside {
+  padding-left: 0; }
+
+.content-with-sidebar .content-inner {
+  padding-left: 21px; }
+
+.sidebar {
+  padding-bottom: 22px;
+  position: relative; }
+  .sidebar:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 22px;
+    background-color: #458bc7; }
+  .sidebar li > a {
+    font-size: 18px;
+    line-height: 1.2em;
+    font-weight: bold;
+    display: block;
+    padding: 15px 10px;
+    position: relative;
+    background-color: #458bc7;
+    color: #fff;
+    text-decoration: none; }
+  .sidebar li.active > a:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -9px;
+    display: block;
+    border: 9px solid transparent;
+    border-right: 9px solid white;
+    width: 0;
+    height: 0; }
+  .sidebar .sidebar_second-level-menu li {
+    display: table;
+    width: 100%; }
+    .sidebar .sidebar_second-level-menu li:last-child > a {
+      border-bottom: none; }
+  .sidebar .sidebar_second-level-menu li > a {
+    padding: 18px;
+    font-size: 13px;
+    background-color: #ebebeb;
+    border-bottom: 1px solid white;
+    text-decoration: none;
+    color: #458bc7;
+    display: table-cell;
+    vertical-align: middle; }
+  .sidebar .sidebar_second-level-menu li.active > a {
+    position: relative; }
+    .sidebar .sidebar_second-level-menu li.active > a:after {
+      content: '\f105';
+      position: absolute;
+      right: 25px;
+      top: 50%;
+      margin-top: -14px;
+      display: block;
+      border: none;
+      font: normal normal normal 14px/1 FontAwesome;
+      color: #458bc7;
+      font-size: 24px; }

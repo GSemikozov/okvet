@@ -1,0 +1,44 @@
+/* FONTS variables */
+/* BODY variables */
+/* content variables */
+/* forms */
+/* modals */
+/* Footer variables */
+.sidebar_news {
+  padding: 30px 0 2px 10px;
+  border-right: 1px solid #ddd; }
+  .sidebar_news h1 {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin: 5px 0 7px; }
+  .sidebar_news .sidebar_news-block {
+    border-bottom: 1px solid #ddd;
+    padding-right: 5px; }
+    .sidebar_news .sidebar_news-block img {
+      margin-top: 10px;
+      width: 100%;
+      height: auto; }
+    .sidebar_news .sidebar_news-block .date {
+      background-color: #458bc7;
+      color: #fff;
+      font-size: 14px;
+      font-weight: bold;
+      display: inline-block;
+      margin: 10px 0 13px -10px; }
+    .sidebar_news .sidebar_news-block .title {
+      font-size: 13px;
+      font-weight: 400;
+      color: #458bc7;
+      margin: 0 0 10px; }
+    .sidebar_news .sidebar_news-block p {
+      font-size: 13px;
+      font-weight: 400;
+      margin: 0 0 10px; }
+    .sidebar_news .sidebar_news-block .link {
+      font-size: 14px;
+      font-weight: 400;
+      color: #458bc7;
+      margin: 0 0 10px;
+      display: block;
+      text-decoration: underline; }

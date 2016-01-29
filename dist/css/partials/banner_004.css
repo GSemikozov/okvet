@@ -48,3 +48,10 @@
       color: #fff; }
       .banner_004 .caption .order-btn:after .banner_004 .caption .order-btn:focus, .banner_004 .caption .order-btn:active {
         opacity: .8; }
+
+.banner_004_tovari {
+  margin-bottom: 35px; }
+  .banner_004_tovari img {
+    height: 300px; }
+  .banner_004_tovari .caption {
+    padding: 0 0 22px; }
